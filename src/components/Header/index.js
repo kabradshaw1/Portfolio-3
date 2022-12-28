@@ -19,12 +19,11 @@ function Header(props) {
           </div>
         </header>
       </section>
-      <section className="hero">
+      <section className="">
         <h2>Welcome</h2>
         <p>
           Stuff and things
         </p>
-      
       </section>
     </div> 
   )
