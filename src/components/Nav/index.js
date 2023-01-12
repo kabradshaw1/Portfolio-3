@@ -12,7 +12,9 @@ function Nav(props) {
 
   return (
     <hav>
-      
+      <ul className=''>
+        
+      </ul>
     </hav>
   )
 };
