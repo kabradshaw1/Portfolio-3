@@ -2,7 +2,7 @@
 import React from "react";
 import { Container, Col, Card, CardColumns } from 'react-bootstrap';
 
-function Portfolio() {
+function Projects() {
   return (
     <Container>
       <h2>Work</h2>
@@ -15,4 +15,4 @@ function Portfolio() {
   )
 }
 
-export default Portfolio;
+export default Projects;

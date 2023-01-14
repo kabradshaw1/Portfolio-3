@@ -12,3 +12,5 @@ function Resume() {
     </Container>  
   )
 }
+
+export default Resume;
