@@ -12,23 +12,3 @@ code {
     monospace;
 }
 
-.hero {
-  background-image: url("../src/assets/cover/");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  background-attachment: fixed;
-  background-position: 80%;
-}
-
-.hero-cta {
-  width: 35%;
-  text-align: center;
-  margin: 3.5%;
-  color: rgb(140, 124, 107);
-  font-size: 18px;
-  line-height: 1.2;
-}

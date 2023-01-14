@@ -62,11 +62,11 @@ function Contact() {
           <p>Please Reach Out?</p>
           <address>
             Durham, NC <br />
-            P: <a href="tel:904.408.8879">904.408.8879</a>
+            P: <a href="tel:919-703-6548">919-703-6548</a>
             <br />
             E:{" "}
-            <a href="mailto://bslockhart@uncg.edu">
-              bslockhart@uncg.edu
+            <a href="mailto://itllbok82@gmail.com">
+              itllbok82@gmail.com
             </a>
           </address>
           <p>
