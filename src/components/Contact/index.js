@@ -28,7 +28,6 @@ function Contact() {
   };
 
   const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
@@ -51,9 +50,9 @@ function Contact() {
   };
 
   return (
-    <section id="reach-out" className="contact">
-      <div className="flex-row">
-        <h2 className="section-title secondary-border">Reach Out</h2>
+    <section id="reach-out" className="">
+      <div className="">
+        <h2 className="">Reach Out</h2>
       </div>
 
       <div className="contact-info">
@@ -61,7 +60,7 @@ function Contact() {
           <h3>Greetings {userName}</h3>
           <p>Please Reach Out?</p>
           <address>
-            Durham, NC <br />
+            Raleigh, NC <br />
             P: <a href="tel:919-703-6548">919-703-6548</a>
             <br />
             E:{" "}
@@ -75,9 +74,9 @@ function Contact() {
         </div>
 
         {/* contact form section  */}
-        <div className="contact-form">
+        <div className="">
           <h3>Contact Me</h3>
-          <form className="form">
+          <form className="">
             {/* Name */}
             <label for="contact-name">Your Name</label>
             <input
