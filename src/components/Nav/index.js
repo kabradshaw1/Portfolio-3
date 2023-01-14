@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
+import { Container, Nav, Navbar, NavDropdown } from react-bootstrap
 
 function Nav(props) {
   const {currentTab, handleTabChange} = props;
@@ -11,10 +12,10 @@ function Nav(props) {
   );
 
   return (
-    <hav>
-      <ul className=''>
-        
-      </ul>
-    </hav>
+    <Navbar bg ='light' expand='lg'>
+      
+    </Navbar>
   )
 };
+
+export default Nav;
