@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Container, Col, Card, CardColumns } from 'react-bootstrap';
+import { Jumbotron, Container, Col, Form, Button, Card, CardColumns } from 'react-bootstrap';
 
 function Projects() {
   return (
