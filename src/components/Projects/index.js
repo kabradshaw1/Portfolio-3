@@ -27,7 +27,7 @@ function Projects() {
               <Card.Text>
                 This project
               </Card.Text>
-              <Button variant='primary' href='https://secure-gorge-89550.herokuapp.com//'>Deployed Site</Button>
+              <Button variant='primary' href='https://secure-gorge-89550.herokuapp.com/'>Deployed Site</Button>
               <Button variant='primary' href='https://github.com/kabradshaw1/Fitness-Tracker'>GitHub Repository</Button>        
             </Card.Body>
           </Card>
