@@ -21,7 +21,7 @@ function About() {
   return (
     <Container id='about-me'>
       <Card className='card'>
-        <Card.Img variant='top' src={profileImage}/>
+        {/* <Card.Img variant='top' src={profileImage}/> */}
         <Card.Text>
           Hello, my name is Kyle. I'm a full stack web developer. I'm currently seeking my first full time position 
           as a web developer.   I recently completed a six month coding bootcamp at UNC learning a verity of front
