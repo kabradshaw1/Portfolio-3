@@ -5,9 +5,9 @@ function Header(props) {
   const { currentTab, handleTabChange } = props;
 
   return (
-    <div>
+    <>
       <section>
-        <header className="flex-row px-1">
+        <header className="">
           <div>
             <h1>Kyle's Portfolio</h1>
           </div>
@@ -25,7 +25,7 @@ function Header(props) {
           Stuff and things
         </p>
       </section>
-    </div> 
+    </> 
   )
 }
 export default Header;

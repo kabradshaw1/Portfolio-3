@@ -12,3 +12,6 @@ code {
     monospace;
 }
 
+.card {
+  width: 30rem;
+}
