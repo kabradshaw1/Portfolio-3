@@ -1,6 +1,6 @@
 import React from "react";
 import FeaturedProjects from '../FeaturedProjects'
-import DeployedProjects from '../DeployedProjects'
+import DeployedPorjects from '../DeployedProjects'
 import OtherProjects from '../OtherProjects'
 
 function Projects() {

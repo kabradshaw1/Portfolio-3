@@ -4,7 +4,7 @@ import { Container, Button, Card } from 'react-bootstrap';
 import National from '../../assets/img/screen_shots/National-Parks.PNG'
 
 function FeaturedProjects() {
-  featured = [
+  const featured = [
     {
       name: 'National Parks Search Engine',
       description: 'This project serves to provide access to the APIs provided by nps.gov.  There is still a little work I would like to do for this project.',
