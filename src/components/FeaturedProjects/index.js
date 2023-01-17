@@ -1,7 +1,8 @@
 
 import React from "react";
-import { Container, Button, Card } from 'react-bootstrap';
+import { Container, Row, Button, Card } from 'react-bootstrap';
 import National from '../../assets/img/screen_shots/National-Parks.PNG'
+import Fitness from '../../assets/img/screen_shots/Fitness.PNG'
 
 function FeaturedProjects() {
   const featured = [
@@ -14,8 +15,10 @@ function FeaturedProjects() {
   ]
   return (
     <>
-      <Container>
-        <h2>Featured Projects</h2>
+    
+    <Container>
+      <h2>Featured Projects</h2>
+      <Row>
           {/* final group project */}
           <Card className='card'>
             <Card.Img variant='top' src={National} ></Card.Img>
@@ -29,7 +32,7 @@ function FeaturedProjects() {
             </Card.Body>
           </Card>
           <Card className='card'>
-            {/* <Card.Img variant='top' src={National} ></Card.Img> */}
+            <Card.Img variant='top' src={Fitness} ></Card.Img>
             <Card.Body>
               <Card.Title>Fitness Tracker</Card.Title>
               <Card.Text>
@@ -39,7 +42,8 @@ function FeaturedProjects() {
               <Button variant='primary' href='https://github.com/kabradshaw1/Fitness-Tracker'>GitHub Repository</Button>        
             </Card.Body>
           </Card>
-      </Container>  
+      </Row>  
+    </Container>
     </>
   )
 }

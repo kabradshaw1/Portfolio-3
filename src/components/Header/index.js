@@ -22,7 +22,7 @@ function Header(props) {
       <section className="">
         <h2>Welcome</h2>
         <p>
-          Stuff and things
+          This portfolio is still under construction.  I hope to have it finished by January 20, 2023.
         </p>
       </section>
     </> 
