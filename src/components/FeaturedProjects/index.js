@@ -9,8 +9,17 @@ function FeaturedProjects() {
     {
       name: 'National Parks Search Engine',
       description: 'This project serves to provide access to the APIs provided by nps.gov.  There is still a little work I would like to do for this project.',
+      tech: 'MERN, NoSQL, GraphQL, API, React, MangoDB, Express.js',
       gitub: 'https://github.com/kabradshaw1/National-Parks',
       deployed: 'https://evening-reaches-42082.herokuapp.com/'
+    },
+    {
+      name: 'Fitness Tracker',
+      description: 'This project displays fitness measurements such as daily max heart rate on a bar graph.  It has an Express.js server that allows you to store the data in a MySQL database.  It also demonstrates MVC and ORM.',
+      Tech: 'ORM, MySQL, SQL, MVC, Restful API, Express.js',
+      github: 'https://github.com/kabradshaw1/Fitness-Tracker',
+      deployed: 'https://secure-gorge-89550.herokuapp.com/'
+
     }
   ]
   return (
