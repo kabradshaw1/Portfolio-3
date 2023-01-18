@@ -17,7 +17,7 @@ function FeaturedProjects() {
     {
       name: 'Fitness Tracker',
       description: 'This project displays fitness measurements such as daily max heart rate on a bar graph.  It has an Express.js server that allows you to store the data in a MySQL database.  It also demonstrates MVC and ORM.',
-      Tech: 'ORM, MySQL, SQL, MVC, Restful API, Express.js',
+      tech: 'ORM, MySQL, SQL, MVC, Restful API, Express.js',
       github: 'https://github.com/kabradshaw1/Fitness-Tracker',
       deployed: 'https://secure-gorge-89550.herokuapp.com/',
       screenshot: 'Fitness'
@@ -41,12 +41,15 @@ function FeaturedProjects() {
             <Card className='card'>
               <Card.Img variant='top' src={project.screenshot} ></Card.Img>
               <Card.Body>
-                <Card.Title>{project.name}</Card.Title>
+                <Card.Title><h3>{project.name}</h3></Card.Title>
                 <Card.Text>
-                  {project.description}
+                  <h4>Discription</h4> <br/>
+                  {project.description} <br/>
+                  <h4>Technologies and Concepts</h4> <br/>
+                  {project.tech}
                 </Card.Text>
-                <Button variant='primary' href='https://evening-reaches-42082.herokuapp.com/'>Deployed Site</Button>
-                <Button variant='primary' href='https://github.com/kabradshaw1/National-Parks'>GitHub Repository</Button>        
+                <Button variant='primary' href={project.deployed}>Deployed Site</Button>
+                <Button variant='primary' href={project.github}>GitHub Repository</Button>        
               </Card.Body>
             </Card>
           )
