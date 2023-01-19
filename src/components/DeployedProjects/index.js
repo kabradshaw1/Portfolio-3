@@ -24,6 +24,13 @@ function DeployedPorjects() {
       tech: '',
       deployed: 'https://still-ocean-01779.herokuapp.com/'
     },
+    {
+      name: 'Book Search Engine',
+      description: 'This app uses the Google Books API.',
+      gitub: 'https://github.com/kabradshaw1/Book-Search-Engine',
+      tech: 'This site uses the MERN stack and GraphQL',
+      deployed: 'https://quiet-chamber-36592.herokuapp.com/'
+    },
     
   ])
   return (
