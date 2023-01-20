@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderNav from "../Nav";
-import { Container, Col } from 'react-bootstrap'
+import { Container, Col, Row } from 'react-bootstrap'
 {/* <section>
         <header className="">
           <div>
@@ -25,12 +25,19 @@ function Header(props) {
 
   return (
     <>
-    <Container className='jumbotron text-light bg-dark'>
-      <h1>Kyle's Portfolio</h1>
-      <HeaderNav
-          currentTab={currentTab}
-          handleTabChange={handleTabChange}
-      />
+  
+      <Row className='text-light bg-dark'>
+        <Col>
+          <h1>Kyle's Portfolio</h1>
+        </Col>
+        <Col>
+          <HeaderNav className='' currentTab={currentTab} handleTabChange={handleTabChange}/>
+        </Col>
+      </Row>
+  
+    <Container>
+      <h2>Welcome</h2>
+      <p>Please checkout out my apps in the Projects tab.</p>
     </Container>
     </>
   )
