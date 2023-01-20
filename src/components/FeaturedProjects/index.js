@@ -1,8 +1,6 @@
 
 import React, {useState} from "react";
 import { Container, Row, Button, Card } from 'react-bootstrap';
-import National from '../../assets/img/screen_shots/National-Parks.PNG'
-import Fitness from '../../assets/img/screen_shots/Fitness.PNG'
 
 function FeaturedProjects() {
   const [featured] = useState([
@@ -12,7 +10,7 @@ function FeaturedProjects() {
       tech: 'MERN, NoSQL, GraphQL, API, React, MangoDB, Express.js',
       gitub: 'https://github.com/kabradshaw1/National-Parks',
       deployed: 'https://evening-reaches-42082.herokuapp.com/',
-      screenshot: 'National'
+      screenshot: 'National-Parks'
     },
     {
       name: 'Fitness Tracker',
@@ -22,14 +20,14 @@ function FeaturedProjects() {
       deployed: 'https://secure-gorge-89550.herokuapp.com/',
       screenshot: 'Fitness'
     },
-    {
-      name: '',
-      description: '',
-      Tech: '',
-      github: '',
-      deployed: '',
-      screenshot: ''
-    },
+    // {
+    //   name: '',
+    //   description: '',
+    //   Tech: '',
+    //   github: '',
+    //   deployed: '',
+    //   screenshot: ''
+    // },
   ])
   return (
     <>
@@ -39,7 +37,7 @@ function FeaturedProjects() {
       <Row>
           {featured.map((project)=> (
             <Card className='card'>
-              <Card.Img variant='top' src={project.screenshot} ></Card.Img>
+              <Card.Img variant='top' src={require('../../assets/img/screen_shots/' + project.screenshot + '.PNG')} ></Card.Img>
               <Card.Body>
                 <Card.Title><h3>{project.name}</h3></Card.Title>
                 <Card.Text>
