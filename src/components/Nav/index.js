@@ -22,9 +22,6 @@ function HeaderNav(props) {
       <Nav.Link onClick={()=> handleTabChange('Projects')}>Projects</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link onClick={()=> handleTabChange('Contact')}>Contact</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
       <Nav.Link onClick={()=> handleTabChange('Resume')}>Résumé</Nav.Link>
     </Nav.Item>
    </Nav>   

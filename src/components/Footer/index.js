@@ -7,14 +7,14 @@ function Footer() {
     <footer className='bg-primary'>
       <h2>Made by Kyle Bradshaw</h2>
       <p>
-        <ul>
-          <a href="https://github.com/kabradshaw1">
-            <li >
+        <ul className='Row'>
+          <a className='Col' href="https://github.com/kabradshaw1">
+            <li className='text-dark'>
               <VscGithubAlt />
             </li>
           </a>
-          <a href="https://www.linkedin.com/in/kyle-bradshaw-15950988/">
-            <li >
+          <a className='Col' href="https://www.linkedin.com/in/kyle-bradshaw-15950988/">
+            <li className='text-dark'>
               <AiOutlineLinkedin />
             </li>
           </a>
