@@ -4,9 +4,9 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 
 function Footer() {
   return (
-    <footer>
+    <footer className='container'>
       <h2>Made by Kyle Bradshaw</h2>
-      <p>
+      <p className="col">
         <ul>
           <a href="https://github.com/kabradshaw1">
             <li className="logo">

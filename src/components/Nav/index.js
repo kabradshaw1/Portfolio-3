@@ -27,8 +27,7 @@ function HeaderNav(props) {
     <Nav.Item>
       <Nav.Link onClick={()=> handleTabChange('Resume')}>Résumé</Nav.Link>
     </Nav.Item>
-   </Nav>
-   
+   </Nav>   
   )
 };
 

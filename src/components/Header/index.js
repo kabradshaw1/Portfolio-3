@@ -1,12 +1,7 @@
 import React from "react";
 import HeaderNav from "../Nav";
-
-function Header(props) {
-  const { currentTab, handleTabChange } = props;
-
-  return (
-    <>
-      <section>
+import { Container, Col } from 'react-bootstrap'
+{/* <section>
         <header className="">
           <div>
             <h1>Kyle's Portfolio</h1>
@@ -24,8 +19,20 @@ function Header(props) {
         <p>
           This portfolio is still under construction.  I hope to have it finished by January 20, 2023.
         </p>
-      </section>
-    </> 
+      </section> */}
+function Header(props) {
+  const { currentTab, handleTabChange } = props;
+
+  return (
+    <>
+    <Container className='jumbotron text-light bg-dark'>
+      <h1>Kyle's Portfolio</h1>
+      <HeaderNav
+          currentTab={currentTab}
+          handleTabChange={handleTabChange}
+      />
+    </Container>
+    </>
   )
 }
 export default Header;
