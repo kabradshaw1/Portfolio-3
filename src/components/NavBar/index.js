@@ -7,8 +7,10 @@ const AppNavbar = () => {
   return (
     <>
       <Navbar bg='dark' variant='dark' expand='lg'>
-        
+
       </Navbar>
     </>
   )
 }
+
+export default AppNavbar
