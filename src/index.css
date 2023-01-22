@@ -17,3 +17,7 @@ code {
   width: 40rem;
 }
 
+footer ul {
+  list-style: none;
+}
+
