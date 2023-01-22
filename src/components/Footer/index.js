@@ -7,17 +7,17 @@ import Col from 'react-bootstrap/Col'
 
 function Footer() {
   return (
-    <footer className='bg-primary container-fluid'>
-      <Container fluid>
-        <Row>
-          <Col lg='6'>
-          <h2 >Made by Kyle Bradshaw</h2>
+    <footer className='bg-primary' >
+      <Container fluid >
+        <Row className="align-items-center">
+          <Col>
+          <h2>Made by Kyle Bradshaw</h2>
           </Col>
-          <Col xs={1}>
+          <Col>
             <p>
               <ul>
-                <Row>
-                  <Col>
+                <Row className='display-3'>
+                  <Col >
                     <a  href="https://github.com/kabradshaw1">
                       <li className='text-dark'>
                         <VscGithubAlt />
