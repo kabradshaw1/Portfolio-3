@@ -1,4 +1,5 @@
 import React from "react";
+import { Container, Row, Col } from 'react-bootstrap'
 import FeaturedProjects from '../FeaturedProjects'
 import DeployedPorjects from '../DeployedProjects'
 import OtherProjects from '../OtherProjects'
@@ -6,9 +7,11 @@ import OtherProjects from '../OtherProjects'
 function Projects() {
   return (
     <>
-    <FeaturedProjects/>
-    <DeployedPorjects/>
-    <OtherProjects/>
+    <Container>
+      <FeaturedProjects/>
+      <DeployedPorjects/>
+      <OtherProjects/>
+    </Container>
     </>
   )
 }

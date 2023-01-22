@@ -25,20 +25,21 @@ function Header(props) {
 
   return (
     <>
-  
-      <Row className='text-light bg-dark'>
-        <Col>
-          <h1>Kyle's Portfolio</h1>
-        </Col>
-        <Col>
-          <HeaderNav className='' currentTab={currentTab} handleTabChange={handleTabChange}/>
-        </Col>
-      </Row>
-  
-    <Container>
-      <h2>Welcome</h2>
-      <p>Please checkout out my apps in the Projects tab.</p>
-    </Container>
+      <Container fluid>
+        <Row className='text-light bg-dark'>
+          <Col xs lg='5'>
+            <h1>Kyle's Portfolio</h1>
+          </Col>
+          <Col xs>
+            <HeaderNav className='' currentTab={currentTab} handleTabChange={handleTabChange}/>
+          </Col>
+        </Row>
+      </Container>
+    
+      <Container fluid>
+        <h2>Welcome</h2>
+        <p>Please checkout out my apps in the Projects tab.</p>
+      </Container>
     </>
   )
 }
