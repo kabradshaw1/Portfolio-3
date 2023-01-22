@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -20,9 +19,7 @@ function App() {
     if (currentTab === "Projects") {
       return <Projects />;
     }
-    if (currentTab === "Resume") {
-      return <Resume />;
-    }
+  
     return <About />;
   };
 

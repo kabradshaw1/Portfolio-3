@@ -5,9 +5,11 @@ import DeployedPorjects from '../DeployedProjects'
 import OtherProjects from '../OtherProjects'
 
 function Projects() {
+
+
   return (
     <>
-    <Container>
+    <Container fluid>
       <FeaturedProjects/>
       <DeployedPorjects/>
       <OtherProjects/>

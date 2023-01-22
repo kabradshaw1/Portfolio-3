@@ -32,19 +32,22 @@ function FeaturedProjects() {
   return (
     <>
     
-    <Container>
+    <Container fluid>
       <h2>Featured Projects</h2>
-      <Row>
+      <p>These are the two group projects that I worked on during my UNC Coding Bootcamp.  I'm hoping to add my Django project here shortly.</p>
+      <Row md={2} sm={1}>
           {featured.map((project)=> (
-            <Card className='card'>
+            <Card >
               <Card.Img variant='top' src={require('../../assets/img/screen_shots/' + project.screenshot + '.PNG')} ></Card.Img>
               <Card.Body>
                 <Card.Title><h3>{project.name}</h3></Card.Title>
                 <Card.Text>
-                  <h4>Discription</h4> <br/>
-                  {project.description} <br/>
-                  <h4>Technologies and Concepts</h4> <br/>
-                  {project.tech}
+                  <Card.Title>
+                    <h4>Discription</h4>
+                  </Card.Title>
+                  <Card.Text>{project.description}</Card.Text>
+                  <Card.Title><h4>Technologies and Concepts</h4> </Card.Title>
+                  <Card.Text>{project.tech}</Card.Text>
                 </Card.Text>
                 <Button variant='primary' href={project.deployed}>Deployed Site</Button>
                 <Button variant='primary' href={project.github}>GitHub Repository</Button>        
