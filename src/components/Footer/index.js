@@ -10,26 +10,26 @@ function Footer() {
     <footer className='bg-primary container-fluid'>
       <Container fluid>
         <Row>
-          <Col>
+          <Col lg='6'>
           <h2 >Made by Kyle Bradshaw</h2>
           </Col>
-          <Col>
+          <Col xs={1}>
             <p>
-              <ul >
+              <ul>
                 <Row>
                   <Col>
-                      <a  href="https://github.com/kabradshaw1">
-                        <li className='text-dark'>
-                          <VscGithubAlt />
-                        </li>
-                      </a>
+                    <a  href="https://github.com/kabradshaw1">
+                      <li className='text-dark'>
+                        <VscGithubAlt />
+                      </li>
+                    </a>
                   </Col>
                   <Col>
-                      <a  href="https://www.linkedin.com/in/kyle-bradshaw-15950988/">
-                        <li className='text-dark'>
-                          <AiOutlineLinkedin />
-                        </li>
-                      </a>
+                    <a  href="https://www.linkedin.com/in/kyle-bradshaw-15950988/">
+                      <li className='text-dark'>
+                        <AiOutlineLinkedin />
+                      </li>
+                    </a>
                   </Col>
                 </Row>
               </ul>
