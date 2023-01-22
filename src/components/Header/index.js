@@ -27,10 +27,10 @@ function Header(props) {
     <>
       <Container fluid>
         <Row className='text-light bg-dark'>
-          <Col xs lg='5'>
+          <Col xs={6} lg='5'>
             <h1>Kyle's Portfolio</h1>
           </Col>
-          <Col xs>
+          <Col xs={6}>
             <HeaderNav className='' currentTab={currentTab} handleTabChange={handleTabChange}/>
           </Col>
         </Row>
@@ -38,7 +38,7 @@ function Header(props) {
     
       <Container fluid>
         <h2>Welcome</h2>
-        <p>Please checkout out my apps in the Projects tab.</p>
+        <p>I'm currently learning more about Bootstrap, so this application is currently a work in progress.  Please check back soon if you are here, and it doesn't look finished.</p>
       </Container>
     </>
   )
