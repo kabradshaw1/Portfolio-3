@@ -43,11 +43,11 @@ function DeployedPorjects() {
             <Card.Body>
                 <Card.Title><h3>{project.name}</h3></Card.Title>
                 <Card.Text>
-                  <Card.Title>
-                    <h4>Discription</h4>
-                  </Card.Title>
+                  <Card.Subtitle>
+                    Discription
+                  </Card.Subtitle>
                   <Card.Text>{project.description}</Card.Text>
-                  <Card.Title><h4>Technologies and Concepts</h4> </Card.Title>
+                  <Card.Subtitle>Technologies and Concepts</Card.Subtitle>
                   <Card.Text>{project.tech}</Card.Text>
                 </Card.Text>
                 <Button variant='primary' className='me-1' href={project.deployed}>Deployed Site</Button>
