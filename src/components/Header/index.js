@@ -19,7 +19,7 @@ function Header(props) {
     
       <Container fluid >
         <h2>Welcome</h2>
-        <p>I'm currently learning more about Bootstrap, so this application is currently a work in progress.  Please check back soon if you are here, and it doesn't look finished.</p>
+        <p>I hope to make more imrpovements to this page as a practice more React-bootstrap.  I'm currently working on other projects, but plan on returning to this.</p>
       </Container>
     </>
   )

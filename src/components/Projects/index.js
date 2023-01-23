@@ -12,7 +12,6 @@ function Projects() {
     <Container fluid>
       <FeaturedProjects/>
       <DeployedPorjects/>
-      <OtherProjects/>
     </Container>
     </>
   )
