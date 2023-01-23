@@ -6,33 +6,39 @@ function DeployedPorjects() {
     {
       name: 'Deep Thoughts',
       description: 'This is a social media site.',
-      gitub: 'https://github.com/kabradshaw1/deep-thoughts',
-      tech: 'This site uses MERN and GraphQL',
+      github: 'https://github.com/kabradshaw1/deep-thoughts',
+      tech: 'MERN and GraphQL',
       deployed: 'https://gentle-shore-15053.herokuapp.com/'
     },
     {
       name: 'Photo Port',
       description: 'This project is a portfolio for photographs.',
-      gitub: 'https://github.com/kabradshaw1/photo-port',
-      tech: 'This site uses React',
+      github: 'https://github.com/kabradshaw1/photo-port',
+      tech: 'React',
       deployed: 'https://kabradshaw1.github.io/photo-port/'
     },
     {
       name: 'Just Tech News',
       description: 'This is a blog site.  This project uses an express server and MySQL database and demonstrates MVC and ORM.',
-      gitub: 'https://github.com/kabradshaw1/just-tech-news',
+      github: 'https://github.com/kabradshaw1/just-tech-news',
       tech: 'ORM, MySQL, SQL, MVC, Restful API, Express.js',
       deployed: 'https://still-ocean-01779.herokuapp.com/'
     },
     {
       name: 'Book Search Engine',
       description: 'This app uses the Google Books API.',
-      gitub: 'https://github.com/kabradshaw1/Book-Search-Engine',
-      tech: 'This site uses the MERN stack and GraphQL',
+      github: 'https://github.com/kabradshaw1/Book-Search-Engine',
+      tech: 'MERN stack and GraphQL',
       deployed: 'https://quiet-chamber-36592.herokuapp.com/'
     },
-    
-  ])
+    {
+      name: 'Contact Card',
+      description: 'This app is used to store contact information',
+      github: 'https://github.com/kabradshaw1/contact-card',
+      tech: 'NoSQL, PWA, MongoDB, Express.js',
+      deployed: 'https://mighty-sands-85695.herokuapp.com/'
+    }
+  ])  
   return (
     <Container fluid>
       <h2>Deployed Projects</h2>

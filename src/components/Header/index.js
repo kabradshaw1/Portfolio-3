@@ -7,11 +7,11 @@ function Header(props) {
   return (
     <>
       <Container fluid>
-        <Row sm={1} lg={2} className='text-light bg-dark align-items-center'>
-          <Col xs={2} lg={5}>
+        <Row  className='text-light bg-dark align-items-center'>
+          <Col >
             <h1>Kyle's Portfolio</h1>
           </Col>
-          <Col xs={6}>
+          <Col >
             <HeaderNav currentTab={currentTab} handleTabChange={handleTabChange} />
           </Col>
         </Row>

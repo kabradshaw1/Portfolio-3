@@ -1,10 +1,11 @@
 import React from "react";
 import profileImage from "../../assets/img/profile/profile.jpg";
 import  Card from 'react-bootstrap/Card'
+import Container from 'react-bootstrap/Container'
 
 function About() {
   return (
- 
+    <Container>
       <Card id='about-me'>
         <Card.Img variant='top' src={profileImage}/>
         <Card.Text>
@@ -15,6 +16,7 @@ function About() {
           Carolina University. 
         </Card.Text>
       </Card>
+    </Container>
   );
 }
 
