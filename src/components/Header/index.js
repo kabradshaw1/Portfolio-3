@@ -7,7 +7,7 @@ function Header(props) {
   return (
     <>
       <Container fluid>
-        <Row className='text-light bg-dark align-items-center'>
+        <Row sm={1} lg={2} className='text-light bg-dark align-items-center'>
           <Col xs={2} lg={5}>
             <h1>Kyle's Portfolio</h1>
           </Col>

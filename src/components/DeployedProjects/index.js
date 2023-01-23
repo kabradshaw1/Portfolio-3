@@ -50,7 +50,7 @@ function DeployedPorjects() {
                   <Card.Title><h4>Technologies and Concepts</h4> </Card.Title>
                   <Card.Text>{project.tech}</Card.Text>
                 </Card.Text>
-                <Button variant='primary' href={project.deployed}>Deployed Site</Button>
+                <Button variant='primary' className='me-1' href={project.deployed}>Deployed Site</Button>
                 <Button variant='primary' href={project.github}>GitHub Repository</Button>        
               </Card.Body>
           </Card>

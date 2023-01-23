@@ -1,11 +1,11 @@
 import React from "react";
 import profileImage from "../../assets/img/profile/profile.jpg";
-import { Container, Card } from 'react-bootstrap'
+import  Card from 'react-bootstrap/Card'
 
 function About() {
   return (
  
-      <Card className='card' id='about-me'>
+      <Card id='about-me'>
         <Card.Img variant='top' src={profileImage}/>
         <Card.Text>
           Hello, my name is Kyle. I'm a full stack web developer. I'm currently seeking my first full time position 
