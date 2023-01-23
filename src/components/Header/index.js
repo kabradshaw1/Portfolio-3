@@ -17,7 +17,7 @@ function Header(props) {
         </Row>
       </Container>
     
-      <Container fluid>
+      <Container fluid >
         <h2>Welcome</h2>
         <p>I'm currently learning more about Bootstrap, so this application is currently a work in progress.  Please check back soon if you are here, and it doesn't look finished.</p>
       </Container>
