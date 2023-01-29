@@ -21,9 +21,9 @@ function App() {
   return (
     <>
     <Header currentTab={currentTab} handleTabChange={handleTabChange}/>
-      <main>
-        {renderCurrentTab()}
-      </main>
+    <main>
+      {renderCurrentTab()}
+    </main>
     <Footer/>
     </>
   );
