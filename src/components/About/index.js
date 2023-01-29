@@ -1,6 +1,6 @@
 import React from "react";
 import profileImage from "../../assets/img/profile/profile.jpg";
-import  Card from 'react-bootstrap/Card'
+import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 
 function About() {
