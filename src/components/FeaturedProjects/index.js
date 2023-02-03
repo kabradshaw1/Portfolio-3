@@ -34,7 +34,7 @@ function FeaturedProjects() {
     
     <Container fluid>
       <h2>Featured Projects</h2>
-      <p>These are the two group projects that I worked on during my UNC Coding Bootcamp.  I'm hoping to add my Django project here shortly.</p>
+      <p>These first two projects are from UNC Coding Bootcamp.  The Django project I’ve done completely independently.  </p>
       <Row md={3} sm={1}>
           {featured.map((project)=> (
             <Card className='m-1 bg-secondary'>
