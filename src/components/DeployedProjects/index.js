@@ -42,7 +42,7 @@ function DeployedPorjects() {
   return (
     <Container fluid>
       <h2>Deployed Projects</h2>
-      <p>These projects include tutorials were most of the code was provided with an explanation of how it all worked.  Some of these projects were challenges where I wrote the majority of the code.  I spent a lot of time with all of these projects.  I still have plenty of projects left that I need to deploy here.</p>
+      <p>These projects I worked on as part of UNC Bootcamp.  I spent a lot of time with all these projects, and I still have lots more that I need to include that are in my GitHub.  </p>
       <Row xs={1} md={4}>
         {deployed.map((project)=> (
           <Card className='m-1 bg-secondary'>
