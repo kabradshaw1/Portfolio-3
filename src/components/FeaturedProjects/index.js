@@ -20,14 +20,14 @@ function FeaturedProjects() {
       deployed: 'https://secure-gorge-89550.herokuapp.com/',
       screenshot: 'Fitness'
     },
-    // {
-    //   name: '',
-    //   description: '',
-    //   Tech: '',
-    //   github: '',
-    //   deployed: '',
-    //   screenshot: ''
-    // },
+    {
+      name: 'Working Title',
+      description: 'This app is currently experimental',
+      Tech: 'React, PostgreSQL, Django, Axios, Restframework',
+      github: 'https://github.com/kabradshaw1/React-Django-REST-PostgreSQL',
+      deployed: 'https://serene-tor-73175.herokuapp.com/',
+      screenshot: 'django'
+    },
   ])
   return (
     <>
