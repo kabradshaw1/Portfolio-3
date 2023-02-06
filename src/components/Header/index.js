@@ -19,7 +19,7 @@ function Header(props) {
     
       <Container fluid >
         <h2>Welcome</h2>
-        <p>I hope to return to this portfolio soon to further decorate</p>
+        <p>I hope to return to this portfolio soon to further decorate.</p>
       </Container>
     </>
   )
