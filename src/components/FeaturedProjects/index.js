@@ -21,9 +21,9 @@ function FeaturedProjects() {
       screenshot: 'Fitness'
     },
     {
-      name: 'Working Title',
-      description: 'This app is currently experimental',
-      tech: 'React, PostgreSQL, Django, Axios, Restframework',
+      name: 'Kyle\'s Social Network',
+      description: 'This app will allow creating users, posting, and responding to posts.',
+      tech: 'React, TypeScript, PostgreSQL, Django, Axios, Restframework',
       github: 'https://github.com/kabradshaw1/React-Django-REST-PostgreSQL',
       deployed: 'https://serene-tor-73175.herokuapp.com/',
       screenshot: 'django'
