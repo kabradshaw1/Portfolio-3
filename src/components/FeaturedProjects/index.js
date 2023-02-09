@@ -22,8 +22,8 @@ function FeaturedProjects() {
     },
     {
       name: 'Kyle\'s Social Network',
-      description: 'This app will allow creating users, posting, and responding to posts.',
-      tech: 'React, TypeScript, PostgreSQL, Django, Axios, Restframework',
+      description: 'This app will allow creating users, posting, and responding to posts.  I\'m still very actively working on this',
+      tech: 'React, TypeScript, PostgreSQL, Django, Axios, Django Restframework, Formkin, Yup',
       github: 'https://github.com/kabradshaw1/React-Django-REST-PostgreSQL',
       deployed: 'https://serene-tor-73175.herokuapp.com/',
       screenshot: 'django'
