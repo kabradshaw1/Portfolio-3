@@ -1,8 +1,7 @@
 import React from "react";
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import FeaturedProjects from '../FeaturedProjects'
 import DeployedPorjects from '../DeployedProjects'
-import OtherProjects from '../OtherProjects'
 
 function Projects() {
 
