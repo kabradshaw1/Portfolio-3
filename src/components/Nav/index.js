@@ -7,11 +7,11 @@ import { Nav } from 'react-bootstrap';
 function HeaderNav(props) {
   const {currentTab, handleTabChange} = props;
 
-  useEffect(()=> {
-    document.title = capitalizeFirstLetter(currentTab.name);
-    },
-    [currentTab]
-  );
+  // useEffect(()=> {
+  //   document.title = capitalizeFirstLetter(currentTab.name);
+  //   },
+  //   [currentTab]
+  // );
 
   return (
    <Nav defaultActiveKey='/home' as='ul'>
