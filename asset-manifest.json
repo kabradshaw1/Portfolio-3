@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio3/static/css/main.dc287860.css",
-    "main.js": "/Portfolio3/static/js/main.cfd3399e.js",
+    "main.js": "/Portfolio3/static/js/main.ea8cdf43.js",
     "static/js/787.28d1ee6a.chunk.js": "/Portfolio3/static/js/787.28d1ee6a.chunk.js",
     "static/media/National-Parks.PNG": "/Portfolio3/static/media/National-Parks.7e5642c6b2ffad952c0b.PNG",
     "static/media/profile.jpg": "/Portfolio3/static/media/profile.65958a49e7295be339b7.jpg",
     "static/media/Fitness.PNG": "/Portfolio3/static/media/Fitness.10114bf7896af04a8eea.PNG",
-    "static/media/django.PNG": "/Portfolio3/static/media/django.522dae1ce44b2e5a9544.PNG",
+    "static/media/django.PNG": "/Portfolio3/static/media/django.444cbca12fc2167699bd.PNG",
     "index.html": "/Portfolio3/index.html",
     "main.dc287860.css.map": "/Portfolio3/static/css/main.dc287860.css.map",
-    "main.cfd3399e.js.map": "/Portfolio3/static/js/main.cfd3399e.js.map",
+    "main.ea8cdf43.js.map": "/Portfolio3/static/js/main.ea8cdf43.js.map",
     "787.28d1ee6a.chunk.js.map": "/Portfolio3/static/js/787.28d1ee6a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc287860.css",
-    "static/js/main.cfd3399e.js"
+    "static/js/main.ea8cdf43.js"
   ]
 }
